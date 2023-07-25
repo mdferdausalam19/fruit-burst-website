@@ -16,7 +16,9 @@
       theme: {
         extend: {
           colors: {
-            clifford: '#da373d',
+            backgroundImage: {
+              'hero-bg-1': "url('./')",
+            },
           }
         }
       }
@@ -43,7 +45,7 @@
 
         <!-- Nav Section -->
 
-        <nav>
+        <nav class="mb-14">
             <div class="navbar mt-12 px-12 bg-[#F85559] rounded-full h-28">
                 <div class="navbar-start">
                   <div>
@@ -68,13 +70,35 @@
                 </div>
               </div>
         </nav>
+      </header>
 
-    </header>
     <main>
 
     </main>
-    <footer>
-
+    <footer class="footer footer-center p-10 bg-[#121212] text-white text-base-content space-y-5 mt-36">
+      <div class="flex justify-center items-center mt-28 gap-4">
+        <img src="./images/logo.png" alt="">
+        <h3 class="text-4xl font-bold">Fruit Burst</h4>
+      </div>
+      <div class="grid grid-flow-col gap-4 space-x-8">
+        <a class="link link-hover">Home</a> 
+        <a class="link link-hover">About Us</a> 
+        <a class="link link-hover">Shop</a> 
+        <a class="link link-hover">All Fruits</a> 
+        <a class="link link-hover">Support</a>
+        <a class="link link-hover">My Account</a>
+      </div> 
+      <div>
+        <div class="grid grid-flow-col gap-4 mb-28 space-x-5">
+          <a><img src="./images/twitter.png" alt=""></a> 
+          <a><img src="./images/facebook.png" alt=""></a> 
+          <a><img src="./images/youtube.png" alt=""></a> 
+          <a><img src="./images/linkedin.png" alt=""></a> 
+          <a><img src="./images/instagram.png" alt=""></a> 
+          <a><img src="./images/apple.png" alt=""></a> 
+          
+        </div>
+      </div> 
     </footer>
 </body>
 </html>
