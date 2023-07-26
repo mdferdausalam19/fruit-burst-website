@@ -10,21 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Tailwind Custom Classes -->
-<script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            backgroundImage: {
-              'hero-bg-1': "url('./')",
-            },
-          }
-        }
-      }
-    }
-  </script>
-
      <!-- Google Font  -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -230,9 +215,9 @@
          <!-- Modal -->
 
         <button class="btn text-sm mt-4 font-semibold text-[#F85559]" onclick="my_modal_1.showModal()">Details</button>
-        <div class="text-center">
-        <dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
-        <form method="dialog" class="modal-box p-9 bg-base-100 rounded-lg border border-[#DEDEDE]">
+        <div class="text-center ">
+        <dialog id="my_modal_1" class="modal  modal-bottom sm:modal-middle">
+        <form method="dialog" class="modal-box p-9 bg-base-100  rounded-lg border border-[#DEDEDE]">
           <figure><img class="mb-2 mt-2" src="./images/fruit6.png" alt="" /></figure>
         <h3 class="font-black text-4xl mt-6">Apples</h3>
         <p class="py-4 font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
@@ -507,6 +492,95 @@
           </div>
         </div>
       </section>
+
+      <!-- Why Choose Us Section -->
+
+      <section class="mb-36 mt-36">
+
+        <h1 class="text-5xl font-black text-center mb-6">Why Choose Us</h1>
+        <p class="font-normal text-center mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+
+        
+        <div class="grid grid-cols-3 gap-12">
+          
+        <!-- Left Column -->
+
+        <div class="grid grid-rows-3">
+          <div class="flex justify-center items-center gap-6">
+            <div class="rounded-full bg-gray-200 p-3">
+              <img src="./images/group.png" alt="">
+            </div>
+            <div>
+              <h2 class="text-base font-black mb-3">Dedicated Team</h2>
+              <hr>
+              <p class="font-normal mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center gap-6">
+            <div class="rounded-full bg-gray-200 p-3">
+              <img src="./images/love.png" alt="">
+            </div>
+            <div>
+              <h2 class="text-base font-black mb-3">Fresh is Best</h2>
+              <hr>
+              <p class="font-normal mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center gap-6">
+            <div class="rounded-full bg-gray-200 p-3">
+              <img src="./images/gift-box.png" alt="">
+            </div>
+            <div>
+              <h2 class="text-base font-black mb-3">Gift Certificates</h2>
+              <hr>
+              <p class="font-normal mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+          </div>
+        </div>
+
+          <div>
+            <img src="./images/whychoose1.png" alt="">
+          </div>
+
+          <!-- Right Column -->
+          <div  class="grid grid-rows-3 text-right">
+            <div class="flex justify-center items-center gap-6">
+              <div>
+                <h2 class="text-base font-black mb-3">Integrated Supplier</h2>
+                <hr>
+                <p class="font-normal mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              <div class="rounded-full bg-gray-200 p-3">
+                <img src="./images/fruit.png" alt="">
+              </div>
+            </div>
+            <div class="flex justify-center items-center gap-6">
+              <div>
+                  <h2 class="text-base font-black mb-3">Sustainable Practice</h2>
+                  <hr>
+                  <p class="font-normal mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              <div class="rounded-full bg-gray-200 p-3">
+                <img src="./images/ice-cream.png" alt="">
+              </div>
+            </div>
+            <div class="flex justify-center items-center gap-6">
+            <div>
+              <h2 class="text-base font-black mb-3">The Benefits Only</h2>
+              <hr>
+              <p class="font-normal mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+              <div class="rounded-full bg-gray-200 p-3">
+                <img src="./images/like.png" alt="">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
 
     </main>
     <footer class="footer footer-center p-10 bg-[#121212] text-white text-base-content space-y-5 mt-36">
